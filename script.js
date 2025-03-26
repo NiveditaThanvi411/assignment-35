@@ -1,4 +1,4 @@
-const images = ["images/one.jpg", "images/Two.jpg", "images/Three.jpg", "images/Four.jpg", "images/Five.jpg"];
+const images = ["images/ONE.jpg", "images/TWO.png", "images/THREE.jpg", "images/FOUR.png", "images/FIVE.png"];
 
 let index = 0;
 const slide = document.getElementById('slide');
