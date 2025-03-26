@@ -1,0 +1,36 @@
+.container {
+    width: fit-content;
+    margin: 40px auto;
+    position: relative;
+}
+
+.slide {
+    height: 400px;
+    width: 700px;
+    object-fit: cover;
+    border-radius: 15px;
+}
+
+.ico-action {
+    height: 60px;
+    position: absolute;
+    top: 45%;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.ico-prev {
+    left: 0;
+}
+
+.ico-prev:hover {
+    transform: scale(0.8) translateX(-10px);
+}
+
+.ico-next {
+    right: 0;
+}
+
+.ico-next:hover {
+    transform: scale(0.8) translateX(10px);
+}
